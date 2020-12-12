@@ -1,0 +1,20 @@
+{
+  "name": "enterprisegreetservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "welcomeApi.js",
+  "dependencies": {
+    "aws-sdk": "^2.809.0",
+    "axios": "^0.21.0",
+    "jest": "^26.6.3",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest tests/*",
+    "test-integration": "jest integration-tests/*  --env=node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
