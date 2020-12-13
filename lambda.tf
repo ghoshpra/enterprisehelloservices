@@ -6,8 +6,8 @@
 
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIAZUEY72MVGXA5J2OQ"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 # This is for inline lamda code without S3 dependency
